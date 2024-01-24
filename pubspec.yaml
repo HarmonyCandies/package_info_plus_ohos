@@ -3,10 +3,10 @@ description: OpenHarmony implementation of the package_info_plus plugin.
 version: 0.0.1
 repository: https://github.com/harmonycandies/package_info_plus_ohos
 topics:
-  - package_info
-  - package_info_plus
+  - package-info
+  - package-info-plus
   - ohos
-  - harmony_os
+  - harmony-os
   - openharmony
 
 environment:
