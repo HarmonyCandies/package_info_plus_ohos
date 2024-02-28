@@ -1,6 +1,6 @@
 name: package_info_plus_ohos
 description: OpenHarmony implementation of the package_info_plus plugin.
-version: 0.0.1
+version: 0.0.3
 repository: https://github.com/harmonycandies/package_info_plus_ohos
 topics:
   - package-info
