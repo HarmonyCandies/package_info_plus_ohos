@@ -54,7 +54,9 @@ export default class PackageInfoPlusPlugin implements FlutterPlugin, MethodCallH
         let bundleInfo = await bundleManager.getBundleInfoForSelf(bundleManager.BundleFlag.GET_BUNDLE_INFO_WITH_APPLICATION);
         infoMap.set("version", bundleInfo.versionName);
         infoMap.set("buildNumber", bundleInfo.versionCode.toString());
-        // infoMap.set("buildSignature", "");
+        if (bundleInfo.signatureInfo != null && bundleInfo.signatureInfo.fingerprint != null) {
+          infoMap.set("buildSignature", bundleInfo.signatureInfo.fingerprint);
+        }
         // infoMap.set("installerStore", "");
         result.success(infoMap);
       }

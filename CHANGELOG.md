@@ -1,3 +1,7 @@
+## 0.0.4
+
+* Support buildSignature
+
 ## 0.0.3
 
 * Update hvigor to 4.0.4
