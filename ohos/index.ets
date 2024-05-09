@@ -13,5 +13,5 @@
 * limitations under the License.
 */
 
-import PackageInfoPlusPlugin from './src/main/ets/components/plugin/PackageInfoPlusPlugin';
+import PackageInfoPlusPlugin from './src/main/ets/components/plugin/PackageInfoPlusOhosPlugin';
 export default PackageInfoPlusPlugin;

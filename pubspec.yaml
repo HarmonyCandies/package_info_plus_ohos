@@ -1,6 +1,6 @@
 name: package_info_plus_ohos
 description: OpenHarmony implementation of the package_info_plus plugin.
-version: 0.0.6
+version: 0.0.7
 repository: https://github.com/harmonycandies/package_info_plus_ohos
 topics:
   - package-info
@@ -36,5 +36,4 @@ flutter:
   plugin:
     platforms:
       ohos:
-        package: dev.fluttercommunity.plus.package_info_plus
         pluginClass: PackageInfoPlusPlugin
